@@ -30,6 +30,6 @@ module.exports = async function handler(req, res) {
 
   // Log the full Face++ response
   console.log("Face++ response:", JSON.stringify(data));
-
+ 
   return res.status(200).json(data);
 };
